@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tuyển dụng - Cùng Xây Dựng Tương Lai</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container header-container">
+            <div class="logo">
+                <h2>CÔNG TY CỔ PHẦN CÔNG NGHỆ</h2>
+            </div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#">Trang chủ</a></li>
+                    <li><a href="#">Giới thiệu</a></li>
+                    <li><a href="#">Sản phẩm</a></li>
+                    <li><a href="#">Tin tức</a></li>
+                    <li><a href="#" class="active">Tuyển dụng</a></li>
+                </ul>
+            </nav>
+            <div class="header-action">
+                <a href="#open-positions" class="btn btn-primary">Ứng tuyển ngay</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-bg" style="background-image: url('../ODOO/Bien-Vo-Cuc-Ninh-Thu.jpg');"></div>
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <h1 class="hero-title">Xây dựng tương lai cùng công nghệ —<br> <span class="highlight">theo cách của bạn.</span></h1>
+            <p class="hero-text">
+                Chúng tôi quan tâm đến kết quả bạn tạo ra và cách bạn muốn phát triển. Nếu bạn muốn làm việc với công nghệ mới nhất, xây sản phẩm thực sự, và được tin tưởng — đây là nơi dành cho bạn.
+            </p>
+            <div class="hero-buttons">
+                <a href="#open-positions" class="btn btn-primary">Xem vị trí đang tuyển <i class="fa fa-arrow-right"></i></a>
+                <a href="#process-timeline" class="btn btn-outline">Tìm hiểu quy trình <i class="fa fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats">
+        <div class="container stats-container">
+            <div class="stat-card">
+                <h3 class="stat-number"><span class="counter" data-target="8">0</span></h3>
+                <p class="stat-text">Vị trí đang mở</p>
+            </div>
+            <div class="stat-card">
+                <h3 class="stat-number"><span class="counter" data-target="6">0</span></h3>
+                <p class="stat-text">Phòng ban</p>
+            </div>
+            <div class="stat-card highlight-card">
+                <h3 class="stat-number">Fulltime</h3>
+                <p class="stat-text">Hà Nội & TP.HCM</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Open Positions Section -->
+    <section class="positions" id="open-positions">
+        <div class="container">
+            <div class="section-title text-center">
+                <h2>Vị trí đang tuyển</h2>
+                <p>Khám phá các cơ hội nghề nghiệp và gia nhập đội ngũ của chúng tôi</p>
+            </div>
+            
+            <div class="job-grid">
+                <!-- Job Card 1 -->
+                <a href="#" class="job-card">
+                    <div class="job-header">
+                        <h4>Kế toán viên</h4>
+                        <span class="badge">Đang tuyển</span>
+                    </div>
+                    <div class="job-meta">
+                        <span><i class="fa fa-building"></i> Tài chính - Kế toán</span>
+                        <span class="separator">|</span>
+                        <span><i class="fa fa-money-bill"></i> Thỏa thuận xứng đáng</span>
+                    </div>
+                    <p class="job-desc">Quản lý chứng từ & Hạch toán: Thu thập, kiểm tra tính hợp pháp, sắp xếp và lưu trữ chứng từ (hóa đơn, phiếu thu/chi...)</p>
+                </a>
+
+                <!-- Job Card 2 -->
+                <a href="#" class="job-card">
+                    <div class="job-header">
+                        <h4>System Administrator</h4>
+                        <span class="badge">Đang tuyển</span>
+                    </div>
+                    <div class="job-meta">
+                        <span><i class="fa fa-code-branch"></i> Kỹ thuật</span>
+                        <span class="separator">|</span>
+                        <span><i class="fa fa-money-bill"></i> Upto $1500</span>
+                    </div>
+                    <p class="job-desc">Quản trị hệ thống Git (GitLab/GitHub/Bitbucket): Tạo mới repository, quản lý user, nhóm (group) và phân quyền truy cập...</p>
+                </a>
+
+                <!-- Job Card 3 -->
+                <a href="#" class="job-card">
+                    <div class="job-header">
+                        <h4>DevOps Engineer</h4>
+                        <span class="badge">Đang tuyển</span>
+                    </div>
+                    <div class="job-meta">
+                        <span><i class="fa fa-server"></i> Kỹ thuật</span>
+                        <span class="separator">|</span>
+                        <span><i class="fa fa-money-bill"></i> Upto $2000</span>
+                    </div>
+                    <p class="job-desc">Thiết kế, xây dựng và quản lý hạ tầng On-Premises và Cloud có khả năng mở rộng cao, tính sẵn sàng cao, bảo mật...</p>
+                </a>
+
+                <!-- Job Card 4 -->
+                <a href="#" class="job-card">
+                    <div class="job-header">
+                        <h4>Business Analyst</h4>
+                        <span class="badge">Đang tuyển</span>
+                    </div>
+                    <div class="job-meta">
+                        <span><i class="fa fa-chart-line"></i> Phân tích dự án</span>
+                        <span class="separator">|</span>
+                        <span><i class="fa fa-money-bill"></i> Thỏa thuận</span>
+                    </div>
+                    <p class="job-desc">Bạn sẽ là "người phiên dịch" siêu đẳng, biến những bài toán kinh doanh phức tạp thành giải pháp công nghệ tối ưu...</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Recruitment Process Section -->
+    <section class="process" id="process-timeline" style="background-image: linear-gradient(rgba(10, 10, 10, 0.9), rgba(10, 10, 10, 0.95)), url('../ODOO/bien-sam-son-thanh-hoa.jpg'); background-size: cover; background-attachment: fixed;">
+        <div class="container">
+            <div class="section-title text-center">
+                <h2>Hành Trình Ứng Tuyển</h2>
+                <p>6 bước từ khi nộp hồ sơ đến khi trở thành thành viên chính thức</p>
+            </div>
+            
+            <div class="timeline">
+                <div class="timeline-line"></div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-number">01</div>
+                    <div class="timeline-content">
+                        <h3>Ứng tuyển (Apply Now)</h3>
+                        <p>Nhấn nút [Ứng tuyển ngay] tại cuối mỗi bản mô tả công việc. Hệ thống sẽ tự động cập nhật và gửi xác nhận.</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-number">02</div>
+                    <div class="timeline-content">
+                        <h3>Gửi trao cơ hội (Application)</h3>
+                        <p>Hồ sơ của bạn sẽ được đội ngũ Tuyển dụng xem xét kỹ lưỡng trong vòng 3-5 ngày làm việc.</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-number">03</div>
+                    <div class="timeline-content">
+                        <h3>Kết nối ban đầu (Screening)</h3>
+                        <p>Một cuộc trò chuyện ngắn qua điện thoại để chúng mình hiểu rõ hơn về kỳ vọng của bạn.</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-number">04</div>
+                    <div class="timeline-content">
+                        <h3>Chinh phục thử thách (Interview)</h3>
+                        <p>Phỏng vấn trực tiếp hoặc online cùng quản lý chuyên môn để bạn tỏa sáng với kỹ năng của mình.</p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-top">
+                <h2>Bắt đầu hành trình cùng chuyên gia của chúng tôi</h2>
+                <a href="#" class="btn btn-primary">Khám phá ngay</a>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026. Thiết kế và phát triển với giao diện tối ưu.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
